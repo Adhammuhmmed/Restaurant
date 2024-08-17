@@ -126,3 +126,13 @@ button {
     border: none;
     color: #fff;
 }
+
+@media (max-width:550px) {
+    .download-apps {
+      flex-direction: column !important;
+    }
+
+    .questions {
+      margin-top: 200px !important;
+    }
+}
